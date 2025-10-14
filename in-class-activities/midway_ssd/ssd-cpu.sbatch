@@ -6,7 +6,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=10
 #SBATCH --partition=ssd
-#SBATCH --account=ssd
+#SBATCH --account=ssd-stu
 
 module load python/anaconda-2022.05 mpich/3.2.1
 

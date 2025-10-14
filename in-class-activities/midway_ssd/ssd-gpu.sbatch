@@ -8,8 +8,8 @@
 #SBATCH --ntasks=1
 #SBATCH --gres=gpu:1
 #SBATCH --partition=ssd-gpu
-#SBATCH --account=ssd
-#SBATCH --qos=ssd
+#SBATCH --account=ssd-stu
+#SBATCH --qos=ssd-stu
 
 module load python/anaconda-2022.05 cuda/11.7
 
